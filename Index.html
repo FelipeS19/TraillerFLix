@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrailerFlix</title>
+    <link rel="stylesheet" href="css/style.css">    
+    <script src="./script/scri.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="page-title">
+            TrailerFlix
+        </h1>
+        <p class="page-subtitle">
+            Insira os filmes abaixo
+
+        </p>
+        
+        <div class="form-wrapper">
+
+            <input type="url" id="Imagem"  placeholder="Insira endereço de imagem">
+            <input type ="text" id="Nome" placeholder="Nome da serie ou filme"><br>
+            <input type="url" id="url" placeholder="Link do trailer ">
+
+            <select id="Categoria">
+                <option value="Filmes">Filmes</option>
+                <option value="Series">Series</option>
+            </select><br>
+
+            <button onClick="adicionarFilme()">Adicionar Filme</button>
+
+        </div>
+
+        <div class="canais">
+			<h3 id="film">Filmes</h3>
+			<ul id="Filmes"></ul>	
+            <h3 id="ser">Series</h3>
+			<ul id="Series"></ul>
+		</div>
+    </div>
+
+
+
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+
+    <a href="https://www.linkedin.com/in/felipe-sodr%C3%A9-634805217/" target="_blank">
+    <img src="./css/Design_sem_nome-removebg-preview.png" alt="" class="felipe-logo">
+    </a>
+</body>
+</html>

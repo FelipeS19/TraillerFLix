@@ -1,0 +1,151 @@
+
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  height: 100%;
+  background-color: #110e0e;
+  background-image: linear-gradient(180deg, #110e0e 0%, #060606 50%, #ff0000 200%);
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+/*=================================================infos=====================================================*/
+.page-title {
+  color: #972424;
+  font-size: 45px;
+  margin: 0 0 50px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  margin:20px
+}
+
+.felipe-logo {
+  width: 100px;
+  position: absolute;
+  top: -5px;
+  left: 10px;
+}
+/*=================================================add======================================================*/
+
+#Categoria{
+	margin: 5px;
+	color: rgb(185, 48, 48);
+  background-color: #000000;
+  font-size: 16px;
+	outline: none;
+	border-radius: 5px;
+	border: 2px solid  rgb(0, 0, 0);
+
+}
+
+#Nome,
+#Imagem,
+#url{
+	margin: 5px;
+	color: black;
+	outline: none;
+	border-radius: 5px;
+	border: 5px solid white;
+}
+/*===============================================listas=====================================================*/
+
+#ser,
+#film{
+  color: #ffffff;
+  font-size: 20px;
+  margin: 5px;
+  text-align:start
+  
+}
+
+
+/*===============================================imagens====================================================*/
+
+#Series img,
+#Filmes img{
+	width: 150px;
+	height: 210px;
+	border-radius: 15px;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	overflow-x: auto;
+	padding: 20px;
+  color: #ffffff;
+  font-family:Arial, sans-serif;
+  font-size:medium;
+}
+
+ul img {
+	margin: 20px;
+	transition: 200ms;
+}
+
+ul img:hover {
+	box-shadow: 0px 0px 0px 5px #1eca6657;
+}
+/*===============================================Scroll====================================================*/
+
+::-webkit-scrollbar {
+	height: 15px;
+  
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #1eca6657;
+	border-radius: 10px;
+}
+
+
+/*==========================================================================================================*/
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper button {
+  border: 0 solid;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 250ms;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  background: #ff0000;
+  background: linear-gradient(288deg, rgba(0,0,4,1) 48%, rgba(35,245,239,1) 93%);
+}
+
+
+@media (min-width: 1000px) {
+	.canais {
+		padding: 0 80px;
+	}
+}
+
+@media (max-width: 600px) {
+	.canais {
+		padding: 0 10px;
+	}
+}
